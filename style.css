@@ -20,6 +20,7 @@ body {
 
 .section {
   height: 100vh;
+  width: 100vw;
 }
 
 button {
@@ -265,7 +266,7 @@ a {
     width: 130%;
     text-align: justify;
     letter-spacing: 1px;
-    font-size: 2.1vw;
+    font-size: 2.4vmax;
     padding-top: 1.5vh;
   }
 }
