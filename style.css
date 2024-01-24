@@ -270,6 +270,11 @@ a {
     padding-top: 1.5vh;
   }
 }
+@media screen and (max-width: 715px) {
+  .right p {
+    font-size: 2.1VMAX;
+  }
+}
 @media screen and (max-width: 580px) {
   .right h1 {
     font-size: 6vw;
@@ -278,41 +283,34 @@ a {
     font-size: 2vmax;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 560px) {
   .right p {
-    font-size: 1.9VMAX;
+    font-size: 1.8VMAX;
   }
 }
-@media screen and (max-width: 325px) {
-  .right h1 {
-    font-size: 7vw;
-  }
+@media screen and (max-width: 440px) {
   .right p {
     font-size: 1.6VMAX;
   }
 }
+@media screen and (max-width: 335px) {
+  .right p {
+    font-size: 1.4VMAX;
+  }
+}
 @media screen and (max-width: 280px) {
-  .right h1 {
-    font-size: 7vw;
-  }
   .right p {
-    font-size: 1.5VMAX;
+    font-size: 1.2VMAX;
   }
 }
-@media screen and (max-width: 200px) {
-  .right h1 {
-    font-size: 7vw;
-  }
-  .right p {
-    font-size: 1.3VMAX;
-  }
-}
-@media screen and (max-width: 170px) {
-  .right h1 {
-    font-size: 7vw;
-  }
+@media screen and (max-width: 210px) {
   .right p {
     font-size: 1.1VMAX;
+  }
+}
+@media screen and (max-width: 180px) {
+  .right p {
+    font-size: 0.9VMAX;
   }
 }
 .especialidades {
@@ -487,7 +485,7 @@ a {
 }
 @media screen and (max-width: 500px) {
   .frase p {
-    font-size: 4VMAX;
+    font-size: 3.5VMAX;
   }
 }
 @media screen and (max-width: 400px) {
