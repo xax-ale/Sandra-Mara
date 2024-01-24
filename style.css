@@ -275,7 +275,7 @@ a {
     font-size: 6vw;
   }
   .right p {
-    font-size: 2.2vmax;
+    font-size: 2vmax;
   }
 }
 @media screen and (max-width: 400px) {
