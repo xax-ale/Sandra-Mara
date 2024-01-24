@@ -488,7 +488,7 @@ a {
 }
 @media screen and (max-width: 500px) {
   .frase p {
-    font-size: 3.5VMAX;
+    font-size: 2VMAX;
   }
 }
 @media screen and (max-width: 400px) {
@@ -496,7 +496,7 @@ a {
     font-size: 8vw;
   }
   .frase p {
-    font-size: 3vmax;
+    font-size: 2vmax;
   }
 }
 @media screen and (max-width: 350px) {
