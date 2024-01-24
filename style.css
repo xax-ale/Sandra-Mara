@@ -280,7 +280,7 @@ a {
 }
 @media screen and (max-width: 400px) {
   .right p {
-    font-size: 3.2vw;
+    font-size: 1.9VMAX;
   }
 }
 @media screen and (max-width: 305px) {
@@ -288,7 +288,23 @@ a {
     font-size: 7vw;
   }
   .right p {
-    font-size: 3.6vw;
+    font-size: 1.6VMAX;
+  }
+}
+@media screen and (max-width: 250px) {
+  .right h1 {
+    font-size: 7vw;
+  }
+  .right p {
+    font-size: 1.5VMAX;
+  }
+}
+@media screen and (max-width: 155px) {
+  .right h1 {
+    font-size: 7vw;
+  }
+  .right p {
+    font-size: 1.5VMAX;
   }
 }
 .especialidades {
@@ -329,6 +345,7 @@ a {
 
 .card:first-child {
   margin-left: 1vw;
+  height: auto;
 }
 
 .card:last-child {
@@ -346,7 +363,7 @@ a {
   margin-bottom: 5vh;
   margin-left: 5vw;
   height: inherit;
-  min-height: 60vh;
+  min-height: 59vh;
   max-height: 30vh;
   max-width: 95%;
   margin-bottom: 20px;
@@ -462,12 +479,23 @@ a {
 }
 @media screen and (max-width: 500px) {
   .frase p {
-    font-size: 5.3vw;
+    font-size: 4VMAX;
   }
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
   .frase h1 {
     font-size: 8vw;
+  }
+  .frase p {
+    font-size: 3vmax;
+  }
+}
+@media screen and (max-width: 350px) {
+  .frase h1 {
+    font-size: 8vw;
+  }
+  .frase p {
+    font-size: 2vmax;
   }
 }
 .contato-section {
