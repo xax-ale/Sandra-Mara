@@ -110,16 +110,17 @@ a {
   letter-spacing: 1.5px;
   border-radius: 25px;
   text-decoration: none;
+  transition: 0.2s ease;
 }
 .landing-page span button:hover {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  transform: scale(1.1);
 }
 .landing-page span button i {
   font-size: 2.5vw;
 }
 .landing-page span button span {
   color: #000;
-  padding-top: 10px;
+  padding-top: 3.1%;
   padding-left: 1vw;
   display: block;
   width: 100%;
@@ -432,15 +433,12 @@ a {
     font-size: 5vw;
   }
   .card p {
-    font-size: 3.7vmin;
+    font-size: 2.5vmax;
   }
 }
 @media screen and (max-width: 350px) {
   .card h2 {
     font-size: 5vw;
-  }
-  .card p {
-    font-size: 4.5vw;
   }
 }
 .frase {
@@ -564,19 +562,27 @@ a {
   -webkit-background-clip: text;
           background-clip: text;
   display: inline-block; /* Necessário para o Firefox */
+  transition: 0.2s;
 }
 .contato .icones a i:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 .contato .link-home {
   white-space: nowrap;
-}
-.contato .link-home h2:hover {
-  color: purple;
+  transition: transform 0.7s ease;
 }
 .contato .link-home h2 i {
-  font-size: 2.5vw;
+  transition: 0.2s;
+}
+.contato .link-home h2 i:hover {
+  color: purple;
+  transform: scale(1.3);
+}
+.contato .link-home h2 i {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.082), rgba(172, 73, 192, 0.801));
+  font-size: 3.5vw;
   color: inherit;
+  border-radius: 60%;
 }
 @media screen and (max-width: 750px) {
   .contato .contato {
